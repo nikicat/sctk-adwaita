@@ -1,8 +1,8 @@
 use tiny_skia::{Color, Pixmap};
 
-#[cfg(any(feature = "crossfont", feature = "ab_glyph"))]
+#[cfg(any(feature = "crossfont", feature = "ab_glyph", feature = "cosmic-text"))]
 mod config;
-#[cfg(any(feature = "crossfont", feature = "ab_glyph"))]
+#[cfg(any(feature = "crossfont", feature = "ab_glyph", feature = "cosmic-text"))]
 mod font_preference;
 
 #[cfg(feature = "crossfont")]
